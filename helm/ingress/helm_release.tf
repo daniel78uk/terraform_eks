@@ -21,8 +21,8 @@ resource "helm_release" "ingress-nginx" {
   #   file("${path.module}/ingress-values.yaml")
   # ]
 
-  set {
-    name  = "architecture"
-    value = "replicaset"
-  }
+  # set {
+  #   name  = "architecture"
+  #   value = "replicaset"
+  # }
 }

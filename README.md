@@ -33,7 +33,7 @@ aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terr
 
 Also look in the output for the domain: `cluster_endpoint`.
 
-## heml
+## Helm
 
 Go inside each repo and run
 
