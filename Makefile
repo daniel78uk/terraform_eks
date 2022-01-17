@@ -25,3 +25,7 @@ install_eks_metrics:
 install_eks_dashboard:
 	cd kubernetes
 	kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-beta8/aio/deploy/recommended.yaml
+
+destroy_eks:
+	cd kubernetes
+	terraform destroy
