@@ -1,4 +1,4 @@
-# Teraform EKS
+# Terraform EKS
 
 Those scripts are taken from https://learn.hashicorp.com/terraform/kubernetes/provision-eks-cluster
 
